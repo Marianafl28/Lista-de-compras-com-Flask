@@ -1,0 +1,55 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    padding: 20px;
+}
+
+label {
+    margin: 25px 5px;
+}
+
+#remove_items {
+    background-color: greenyellow;
+    color: darkgreen;
+    padding: 30px;
+}
+
+#add_btn {
+    background-color: aquamarine;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#remove_btn {
+    background-color: rgb(23, 188, 25);
+    color: purple;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px 15px;
+}
+
+select {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 0.85em;
+    text-align: center;
+    width: 200px;
+    margin: 50px 10px;
+    padding: 5px 0;
+    border: 2px solid darkgrey;
+}
+
+#add_btn:hover {
+    background-color: darkslategrey;
+}
